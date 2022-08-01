@@ -1,6 +1,40 @@
 ## 🔧 Project Diagram
 ![Project workflow](https://i.gyazo.com/7328e5390fa92f147077ff5c963abf1b.png)
 
+# Tron DEX for African DeFi
+------------------------
+
+## Instructions :
+
+Install TronLink chrome extension in browser.
+
+Add Private key to .env from shasta test network account of TronLink.
+
+```
+$ npm install -g tronbox
+$ npm install -g tronweb
+$ npm install
+$ npm install dotenv
+$ npm install @truffle/hdwallet-provider@1.2.3
+```
+
+Add Private key to tronbox.js from shasta test network account of TronLink.
+
+```
+$ tronbox compile --compile
+$ tronbox migrate --reset --network shasta
+```
+
+```
+$ yarn
+$ yarn start
+```
+
+checkout your  dapp at http://localhost:3000/
+
+------------------------
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
