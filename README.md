@@ -18,7 +18,7 @@ $ npm install dotenv
 $ npm install @truffle/hdwallet-provider@1.2.3
 ```
 
-Add Private key to tronbox.js from shasta test network account of TronLink.
+OR Add Private key directly to tronbox.js from shasta test network account of TronLink.
 
 ```
 $ tronbox compile --compile
